@@ -3,41 +3,48 @@
 :repo_path: "/workspace/revpro-cli/pep-labs"
 :previous_lab: 
 :current_lab: 
-:origin_remote: https://github.com/tedtest1/pep-labs
+:origin_remote: https://github.com/iceage31580/pep-labs
 :repo_clone_folder: "/workspace/revpro-cli/pep-labs"
-:github_username: tedtest1
-:git_name: tedtest1
-:git_email: catzillaattacks@gmail.com
+:github_username: iceage31580
+:git_name: iceage31580
+:git_email: arnoldomarinero@gmail.com
 :gitpod:
   :gitpod_workspace_context:
     isFile: false
     path: ''
-    title: tedtest1/pep-gitpod-workspace - main
+    title: iceage31580/pep-gitpod-workspace - main
     ref: main
     refType: branch
     revision: 5d0ee2b0d677c8aee69a52cbfbf882eaab758954
     repository:
-      cloneUrl: https://github.com/tedtest1/pep-gitpod-workspace.git
+      cloneUrl: https://github.com/iceage31580/pep-gitpod-workspace.git
       host: github.com
       name: pep-gitpod-workspace
-      owner: tedtest1
+      owner: iceage31580
       private: false
       fork:
         parent:
-          cloneUrl: https://github.com/revature-curriculum/pep-gitpod-workspace.git
+          cloneUrl: https://github.com/tedtest1/pep-gitpod-workspace.git
           host: github.com
           name: pep-gitpod-workspace
-          owner: revature-curriculum
+          owner: tedtest1
           private: false
-    normalizedContextURL: https://github.com/tedtest1/pep-gitpod-workspace
+          fork:
+            parent:
+              cloneUrl: https://github.com/revature-curriculum/pep-gitpod-workspace.git
+              host: github.com
+              name: pep-gitpod-workspace
+              owner: revature-curriculum
+              private: false
+    normalizedContextURL: https://github.com/iceage31580/pep-gitpod-workspace
     checkoutLocation: pep-gitpod-workspace
-    upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
+    upstreamRemoteURI: https://github.com/tedtest1/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: tedtest1-pepgitpodworks-xwlo9qjp3ai
-    :workspace_url: https://tedtest1-pepgitpodworks-xwlo9qjp3ai.ws-us79.gitpod.io
+    :workspace_id: iceage31580-pepgitpodwo-z8khksk61tm
+    :workspace_url: https://iceage31580-pepgitpodwo-z8khksk61tm.ws-us80.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
-    :git_user_email: catzillaattacks@gmail.com
-    :git_user_name: tedtest1
+    :git_user_email: arnoldomarinero@gmail.com
+    :git_user_name: iceage31580
 :progress:
   :count_labs_total: 96
   :count_labs_passed: 0
