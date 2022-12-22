@@ -24,24 +24,17 @@
       private: false
       fork:
         parent:
-          cloneUrl: https://github.com/tedtest1/pep-gitpod-workspace.git
+          cloneUrl: https://github.com/revature-curriculum/pep-gitpod-workspace.git
           host: github.com
           name: pep-gitpod-workspace
-          owner: tedtest1
+          owner: revature-curriculum
           private: false
-          fork:
-            parent:
-              cloneUrl: https://github.com/revature-curriculum/pep-gitpod-workspace.git
-              host: github.com
-              name: pep-gitpod-workspace
-              owner: revature-curriculum
-              private: false
     normalizedContextURL: https://github.com/iceage31580/pep-gitpod-workspace
     checkoutLocation: pep-gitpod-workspace
-    upstreamRemoteURI: https://github.com/tedtest1/pep-gitpod-workspace.git
+    upstreamRemoteURI: https://github.com/revature-curriculum/pep-gitpod-workspace.git
   :gitpod_workspace:
-    :workspace_id: iceage31580-pepgitpodwo-z8khksk61tm
-    :workspace_url: https://iceage31580-pepgitpodwo-z8khksk61tm.ws-us80.gitpod.io
+    :workspace_id: iceage31580-pepgitpodwo-i2w49mutfvp
+    :workspace_url: https://iceage31580-pepgitpodwo-i2w49mutfvp.ws-us80.gitpod.io
     :repo_root: "/workspace/pep-gitpod-workspace"
     :git_user_email: arnoldomarinero@gmail.com
     :git_user_name: iceage31580
