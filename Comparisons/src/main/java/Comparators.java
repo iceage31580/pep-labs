@@ -16,7 +16,10 @@ public class Comparators {
     public boolean isEqual(int a, int b){
         int a = 1; 
         int b = 1; 
-        
+
+        if(a == b)
+        return true; 
+        else if
         return false;
     }
 
