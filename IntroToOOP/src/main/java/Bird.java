@@ -28,9 +28,12 @@
  * 
  */
 public class Bird {
-    /**
-     * A variable (in this context, often referred to as a field), which represents the age of the bird.
-     */
+    
+    public static void main(String[] args)
+    {
+        Bird.sound
+    }
+
     public int ageMonths;
 
     /**
@@ -44,20 +47,14 @@ public class Bird {
      * @return "Tweet" if ageMonths is less than 3 and "Chirp" if ageMonths is
      *  * greater than or equal to 3.
      */
-    public static String sound() {
-        
-    
-    
+    public static String sound()
+    {
         if(ageMonths<3)
         {
-        return "Tweet";
-        }
-        else(ageMonths>=3)
-        {
-        return "Chirp"; 
-        
+            return 
         }
 
+        return "";
     }
 
 }
