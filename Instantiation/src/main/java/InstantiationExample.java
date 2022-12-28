@@ -18,7 +18,7 @@ public class InstantiationExample {
      * @return any object.
      */
     public Object instantiateANewObject(){
-        Type reference = new Type(); 
+        InstantiationExample reference = new InstantiationExample(); 
         return reference;
     }
 }
