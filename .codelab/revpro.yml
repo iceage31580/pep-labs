@@ -42,10 +42,10 @@
   :count_labs_total: 96
   :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 2
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 0
+  :count_tests_passed: 2
   Start:
     :Week: 1
     :Order: 1
@@ -194,10 +194,10 @@
     :Order: 4
     :Type: lab
     :count_tests: 9
-    :count_tests_passed: 0
+    :count_tests_passed: 2
     :tests:
-      getLengthTest1: 0
-      getLengthTest2: 0
+      getLengthTest1: 1
+      getLengthTest2: 1
       getNthElementOfArrayTest1: 0
       getNthElementOfArrayTest2: 0
       getNthElementOfArrayTest3: 0
@@ -205,6 +205,7 @@
       setNthElementOfArrayTest2: 0
       returnNewArraySizeNTest1: 0
       returnNewArraySizeNTest2: 0
+      ArrayBasicsTest: 0
   WhileLoop:
     :Week: 2
     :Order: 5
