@@ -15,6 +15,7 @@ public class ArrayBasics {
      * @return the length of arr.
      */
     public int getLengthOfArray(int[] arr){
+        System.out.println(arr.length); 
         return 0;
     }
 
@@ -27,7 +28,8 @@ public class ArrayBasics {
      * @return the element at index n of arr.
      */
     public int getNthElementOfArray(int[] arr, int n){
-        return 0;
+        for (int i < 0; i < arr.length; i++)
+        return i; 
     }
 
     /**
