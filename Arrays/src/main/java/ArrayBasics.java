@@ -50,7 +50,7 @@ public class ArrayBasics {
             arr[i] = val; 
             for(int j<0; j<=val; j++)
             {
-                return val; 
+                int val; 
             }
         }
     }
