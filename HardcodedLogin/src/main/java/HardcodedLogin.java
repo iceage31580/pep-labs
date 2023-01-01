@@ -1,3 +1,4 @@
+import static org.junit.Assert.assertTrue;
 
 public class HardcodedLogin {
     /**
@@ -15,6 +16,13 @@ public class HardcodedLogin {
      * @return true if there is a successful login, and false otherwise.
      */
     public boolean login(String username, String password){
-        return false;
+        if(username == "admin")
+        { 
+            if(password == "qwerty")
+            {
+                  
+            }
+        }
+        
     }
 }
