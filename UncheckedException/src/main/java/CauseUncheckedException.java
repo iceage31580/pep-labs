@@ -1,3 +1,4 @@
+import javax.net.ssl.ExtendedSSLSession;
 
 public class CauseUncheckedException {
     /**
@@ -13,12 +14,8 @@ public class CauseUncheckedException {
      * Notice that errors are separate from exceptions. Errors are external to Java and can occur when some external
      * event happens, like running out of computer memory.
      */
-    public void throwUncheckedException() Exception(String message)
+    public void throwUncheckedException() 
     {
-
-        message = "error"; 
-        System.out.println(message); 
-
-
+        throw new RuntimeException(); 
     }
 }
