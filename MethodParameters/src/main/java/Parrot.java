@@ -1,4 +1,3 @@
-
 public class Parrot {
     /**
      * This method should return whatever String was passed into it by whatever invoked it (in this case, the test),
@@ -12,6 +11,7 @@ public class Parrot {
      * @return text.
      */
     public String copy(String text){
-        return "return text please!";
+        String str = text; 
+        return text; 
     }
 }
