@@ -30,7 +30,7 @@ public class ListExercise {
      * @return a List<Integer> object.
      */
     public List<Integer> createList(){
-        return null;
+        
     }
 
     /**
