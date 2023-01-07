@@ -11,11 +11,13 @@ public class CustomException extends Exception{
     
     try 
     {
-        throw new CustomException(); 
+     int i = 8, j = 0; 
+     int k = i/j;  
+     System.out.println(k);    
     } 
     catch (CustomException e)
     {
-        
+        System.out.print("Error"); 
     }
     
 }
