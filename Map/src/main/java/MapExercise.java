@@ -26,8 +26,8 @@ public class MapExercise {
      * so here Integer is a wrapper for int.
      */
     public Map<Integer, String> createMap(){
-        return null;
-    }
+        Map<Integer, String> map = new HashMap<>();
+        map.put(); 
 
     /**
      * Get the size of a map. (number of key/value paris)
