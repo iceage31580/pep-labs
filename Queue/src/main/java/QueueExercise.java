@@ -2,6 +2,7 @@
  * TODO: switch to deque
  */
 
+import java.util.ArrayDeque;
 import java.util.Queue;
 
 /**
@@ -29,7 +30,8 @@ public class QueueExercise {
      * Stack behavior.
      */
     public Queue<String> createQueue(){
-        return null;
+        Queue<String> queue = new ArrayDeque<>();
+        return queue; 
     }
 
     /**
@@ -38,7 +40,8 @@ public class QueueExercise {
      * @return the length of queue.
      */
     public int getSize(Queue<String> queue){
-        return 0;
+        int size = queue.size();
+        return size; 
     }
 
     /**
