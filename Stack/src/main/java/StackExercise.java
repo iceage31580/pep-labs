@@ -40,7 +40,7 @@ public class StackExercise {
      * @param item a String to be added to the deque.
      */
     public void addToTopOfStack(Deque<String> stack, String item){
-        item = stack.pop(); 
+        stack.addFirst(item); 
 
     }
 
@@ -51,7 +51,9 @@ public class StackExercise {
      * @return the value popped from the top of the deque.
      */
     public String removeFromTopOfStack(Deque<String> stack){
-        return "";
+        String remove  = stack.remove(); 
+        return remove; 
+       
     }
     /**
      * Return the value at the top of a deque without removing the value.
@@ -59,6 +61,7 @@ public class StackExercise {
      * @return the value peeked from the top of the deque.
      */
     public String getTopOfStackWithoutRemoving(Deque<String> stack){
-        return "";
+        String view = stack.peek(); 
+        return view;
     }
 }
