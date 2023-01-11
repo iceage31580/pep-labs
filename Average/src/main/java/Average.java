@@ -22,8 +22,11 @@ public class Average {
         for(int addAll : nums)
         {   
             sum += addAll; 
-            
+            double  average = addAll/sum; 
+             
+            return average;
         }
+        
         
     }
 }
