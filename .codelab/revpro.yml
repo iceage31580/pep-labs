@@ -40,12 +40,12 @@
     :git_user_name: iceage31580
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 0
+  :count_labs_passed: 1
   :count_tests_total: 361
-  :count_tests_passed: 5
+  :count_tests_passed: 6
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 5
+  :count_tests_passed: 6
   Start:
     :Week: 1
     :Order: 1
@@ -444,13 +444,13 @@
     :Order: 13
     :Type: project
     :count_tests: 6
-    :count_tests_passed: 5
+    :count_tests_passed: 6
     :tests:
       bankServiceTest1: 1
       bankServiceTest2: 1
       bankServiceTest3: 1
       bankServiceTest4: 1
-      bankServiceTest5: 0
+      bankServiceTest5: 1
       bankServiceTest6: 1
   StaticKeyword:
     :Week: 4
