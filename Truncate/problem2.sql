@@ -1,0 +1,3 @@
+TRUNCATE TABLE song; 
+
+--TRUNCATE TABLE table_name;
