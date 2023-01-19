@@ -1,5 +1,1 @@
-SELECT * FROM song{
-
-
-    
-}
+SELECT firstname FROM site_user; 
