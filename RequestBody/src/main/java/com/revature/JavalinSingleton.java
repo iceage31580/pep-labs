@@ -18,6 +18,10 @@ public class JavalinSingleton {
          */
         app.post("/problem1", ctx -> {
                 //implement logic here
+                String jsonString = ctx.body(); 
+                String artistName = JsonObject.get("artistName").getAsString(); 
+                ctx.result(artistName); 
+               
         });
 
         /**
@@ -29,6 +33,9 @@ public class JavalinSingleton {
          */
         app.post("/problem2", ctx -> {
                //implement logic here
+               String jsonString = ctx.body(); 
+               jsonObject.addProperty("aristName", "Beatles"); 
+               ctx.json(jsonObject); 
         });
 
 
