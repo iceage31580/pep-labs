@@ -53,51 +53,7 @@ public class BookService {
      * key was already in use.)
      */
     public Book addBook(Book book) {
-        Connection connection = null; 
-        PreparedStatement = null; 
-
-        try{
-            conncetion = Drivermanager.getConnection(DB_URL, DB_USER, DB_PASSWORD); 
-            statement = connection.prepareStatement("SELECT COUNT(*) FROM  books WHERE  ISN = ?"); 
-            statement.setString(1, book.getIsbn()); 
-            ResultSet result = statement.executeQuery(); 
-            if(result.next() && result.getInt(1) > 0)
-            {
-                return null; 
-            }
-
-            //Insert the book 
-            statement = connection.prepareStatement("INSERT INTO books (isb, title, author, publisher) VALUES(?,?,?,?)"); 
-            statement.setString(1, book.getIsn()); 
-            statement.setString(2, book.getTItle()); 
-            statement.setString(3, book.getAuthor()); 
-            statement.setString(4, book.getPublisher()); 
-            statement.executeUpdate(); 
-            return book; 
-        }
-
-        catch(SQLException e)
-        {
-            e.printStackTrace(); 
-            return null; 
-        }
-        
-        finally
-        {
-            if(statement != null)
-            {
-                statement.close(); 
-            }
-            if(connection != nullable(null
-            {
-                connection.close(); 
-            } catch (SQLException e)
-            {
-                e.printStackTrace(); 
-            }
-        }
-
-        
+        return null; 
     }
     /**
      * TODO: Use the bookDAO to retrieve a list of all books that have a bookCount above 0.
