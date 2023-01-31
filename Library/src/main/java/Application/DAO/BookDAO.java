@@ -57,11 +57,12 @@ public class BookDAO {
         Connection connection = ConnectionUtil.getConnection();
         try {
             //Write SQL logic here
-            String sql = "change me";
+            String sql = "SELECT * FROM book WHERE isbn = ?";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
 
             //write preparedStatement's setInt method here.
-            preparedStatment.setInt(isbn); 
+            preparedStatement.setInt(1, isbn); 
+            //preparedStatement.setString(); 
 
             ResultSet rs = preparedStatement.executeQuery();
             while(rs.next()){
@@ -96,7 +97,6 @@ public class BookDAO {
             preparedStatement.setInt(2, book.getAuthor_id()); 
             preparedStatement.setString(3, book.getTitle()); 
             preparedStatement.setInt(4, book.getCopies_available()); 
-            preparedStatement.executeUpdate(); 
 
             preparedStatement.executeUpdate();
             return book;
