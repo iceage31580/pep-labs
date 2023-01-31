@@ -40,12 +40,12 @@
     :git_user_name: iceage31580
 :progress:
   :count_labs_total: 96
-  :count_labs_passed: 1
+  :count_labs_passed: 0
   :count_tests_total: 361
-  :count_tests_passed: 3
+  :count_tests_passed: 2
 :progress_test:
   :count_tests_total: 361
-  :count_tests_passed: 3
+  :count_tests_passed: 2
   Start:
     :Week: 1
     :Order: 1
@@ -869,11 +869,15 @@
     :Order: 3
     :Type: challenge
     :count_tests: 3
-    :count_tests_passed: 3
+    :count_tests_passed: 2
     :tests:
       removeTest1: 1
       removeTest2: 1
       removeTest3: 1
+      isThereSumTest1: 0
+      isThereSumTest2: 0
+      isThereSumTest3: 1
+      isThereSumTest4: 1
   IsThereSum:
     :Week: 7
     :Order: 4
