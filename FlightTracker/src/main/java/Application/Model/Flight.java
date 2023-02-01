@@ -12,6 +12,7 @@ public class Flight {
     public int flight_id;
     public String departure_city;
     public String arrival_city;
+    public Flight updateFlight; 
 
     /**
      * A default, no-args constructor is REQUIRED for Jackson ObjectMapper to work.
