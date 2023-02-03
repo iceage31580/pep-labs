@@ -55,10 +55,25 @@ public class SampleClass {
     public int a;
     public boolean b;
 
+    public boolean equals(SampleClass other){
+        if(this.a == other.a && this.b == other.b){
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
+
     //    implement a custom .equals(SampleClass other){} method here.
+
+    
+    public String toString(){
+        return "SampleClass[a=" + a + ", b=" + b + "]";
+    }
     
 
     //    implement a custom .toString(){} method here.
+
     
     
 }
