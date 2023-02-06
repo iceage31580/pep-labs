@@ -13,6 +13,27 @@ public class Isogram {
      * @return true if str is an isogram, false otherwise.
      */
     public boolean isIsogram(String str){
-        return false;
+        if(str == null || str.length() == 0)
+        {
+            return true; 
+        }
+
+        boolean[] flags = new boolean[26]; 
+
+        for(int i = 0; i < str.length(); i++)
+        {
+            int index = str.charAt(i) - 'a';
+            if(flags[index])
+            {
+                return false; 
+            } 
+            else{
+                flags[index] = true; 
+            }
+        }
+        return true; 
     }
 }
+
+
+
